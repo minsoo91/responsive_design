@@ -1,0 +1,33 @@
+/* Nav */
+header h1 {
+  float: left;
+  display: inline; }
+header nav {
+  margin-top: 40px;
+  float: right;
+  clear: right; }
+  header nav li {
+    display: inline;
+    margin-left: 15px; }
+header #skipTo {
+  display: none; }
+  header #skipTo li {
+    background: #b1fffc; }
+
+/* Banner */
+#banner {
+  float: left;
+  margin-bottom: 15px;
+  width: 100%; }
+  #banner img {
+    width: 100%; }
+
+section {
+  float: left;
+  width: 100%; }
+
+aside {
+  float: left;
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

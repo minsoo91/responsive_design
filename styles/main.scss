@@ -1,0 +1,44 @@
+
+
+/* Nav */
+header {
+	h1 {
+		float: left;
+		display: inline;
+	}
+	nav {
+		margin-top: 40px;
+		float: right;
+		clear: right;
+		li {
+			display: inline;
+			margin-left: 15px;
+		}
+	}
+	#skipTo {
+		display: none;
+		li {
+			background: #b1fffc;
+		}
+	}
+}
+
+/* Banner */
+#banner {
+	float: left;
+	margin-bottom: 15px;
+	width: 100%;
+	img {
+		width: 100%;
+	}
+}
+
+section {
+	float: left;
+	width: 100%;
+}
+
+aside {
+	float: left;
+	width: 100%;
+}
