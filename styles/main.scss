@@ -7,7 +7,6 @@ header {
 		display: inline;
 	}
 	nav {
-		margin-top: 40px;
 		float: right;
 		clear: right;
 		li {
@@ -41,4 +40,32 @@ section {
 aside {
 	float: left;
 	width: 100%;
+}
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+	header {
+		#skipTo {
+			display: block;
+		}
+		nav, #main, aside {
+			float: left;
+			clear: left;
+			width: 100%;
+			ul {
+				padding: 0px;
+				li {
+					margin: 0;
+					background: #efefef;
+					display: block;
+					margin-bottom: 3px;
+					a {
+						display: block;
+						padding: 10px;
+						text-align: center;						
+					}
+				}
+			}
+		}
+	}
 }

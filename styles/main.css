@@ -3,7 +3,6 @@ header h1 {
   float: left;
   display: inline; }
 header nav {
-  margin-top: 40px;
   float: right;
   clear: right; }
   header nav li {
@@ -29,5 +28,25 @@ section {
 aside {
   float: left;
   width: 100%; }
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+  header #skipTo {
+    display: block; }
+  header nav, header #main, header aside {
+    float: left;
+    clear: left;
+    width: 100%; }
+    header nav ul, header #main ul, header aside ul {
+      padding: 0px; }
+      header nav ul li, header #main ul li, header aside ul li {
+        margin: 0;
+        background: #efefef;
+        display: block;
+        margin-bottom: 3px; }
+        header nav ul li a, header #main ul li a, header aside ul li a {
+          display: block;
+          padding: 10px;
+          text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */
